@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HEALTH AND FITNESS</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="pro.css">
+<style>
+  /* css reset*/
+  body {
+    font-family: 'Baloo Bhai', cursive;
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    background: url('https://st.depositphotos.com/1005515/4644/i/450/depositphotos_46446371-stock-photo-young-fitness-woman.jpg');
+    background-size: cover;
+    /* This makes the image cover the entire background */
+
+    background-repeat: no-repeat;
+    /* This prevents the image from repeating */
+
+  }
+
+  .left {
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+
+  }
+
+  .mid {
+    display: block;
+    position: relative;
+    right: 30px;
+    /*first three line is complusary to make content in centre */
+    width: 55%;
+    /*first three line is complusary to make content in centre */
+    margin: 20px auto;
+    /*first three line is complusary to make content in centre */
+    text-align: center;
+
+
+  }
+
+  .right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    
+  }
+
+  .navbar {
+    display: inline-block;
+  }
+
+  .navbar li {
+    display: inline-block;
+    /* for making content about us etc in one line */
+    font-size: 28px;
+  }
+
+  .navbar li a {
+    color: white;
+    /* to make home etc in white color*/
+    text-decoration: none;
+    /* to remove line in home's ke neeche */
+    padding: 34px 14px
+  }
+
+  .navbar li a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+
+  .left img {
+    position: relative;
+    /* to move image up*/
+    bottom:-7px;
+    /* to move image up*/
+    width: 110px;
+    filter: 100px;
+    margin-bottom: 300px;
+    margin-right: 50px;
+
+
+  }
+
+  .btn {
+    position: relative;
+    bottom:-15px;
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: rgb(79, 79, 79);
+  }
+
+  .container {
+    position: relative;
+    /* to move image up*/
+    bottom: -75px;
+    /* to move image up*/
+   
+    margin-left: 57px;
+    padding: 25px 23px;
+    width: 33%;
+    border-radius: 10px;
+
+  }
+
+  .form-group input,
+  h1 {
+    text-align: center;
+    display: block;
+    width: 457px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 9px auto;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Baloo Bhai', cursive;
+
+  }
+
+  .container button {
+    display: block;
+    width: 94%;
+    margin: 20px auto;
+    border-radius: 8px;
+    font-size: 18px;
+
+  }
+</style>
+
+<body>
+  <header class="header">
+    <!-- left for logo -->
+    <div class="left">
+
+      <div>
+        <img src="WhatsApp Image 2023-08-20 at 6.15.47 PM.jpeg" alt="">
+
+      </div>
+
+    </div>
+    <!-- mid for navbar -->
+    <div class="mid">
+      <ul class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Fitness Calculator</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+    <!-- right box for buttons -->
+    <div class="right">
+      <button class="btn">Call us Now</button><button class="btn">Email us</button>
+    </div>
+    <div class="container">
+      <h1>Join The Best Gym Of Dhanbad Now</h1>
+      <form action="backend.php">
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Gender">
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Locality">
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Email Id">
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Phone Number">
+        </div>
+        <button class="btn">submit</button>
+      </form>
+    </div>
+  </header>
+
+</body>
+
+</html>
